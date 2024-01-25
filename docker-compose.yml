@@ -1,0 +1,22 @@
+version: '3'
+
+networks:
+  ovbnetwork:
+    driver: bridge
+
+services:
+
+  psql:
+    build:
+      context: ./psql
+    ports:
+      - "5432:5432"
+    restart: always
+    env_file:
+      - ./psql/.env
+    container_name: psql
+    volumes:
+      - ./psql/dump.sql:/docker-entrypoint-initdb.d/dump.sql
+    networks:
+      - "ovbnetwork"
+

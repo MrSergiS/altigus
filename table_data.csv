@@ -1,0 +1,4 @@
+id,client_id,age,gender,education,planning_education,salary,five_year_salary,expert_salary,required_skills,group_size,describes,decision,difficulty,job_type,disappear,high_demand,personal_growth,switch_job,balance,impact,mobile,work_space,benefits
+1,1,123,male,school,school,123,412,123,soft,bid,intuitive,empathy,difficulty,manual,1,1,1,1,work,no_impact,non_mobile,1,1
+2,1,12,male,bechalor,bechalor,1,12,34,hard,small,sensing,logic,difficulty,diverse,1,1,1,1,balance,impact,non_mobile,1,1
+3,1,12,male,school,school,123,123,124,soft,bid,intuitive,empathy,difficulty,manual,1,1,1,1,work,no_impact,non_mobile,1,1

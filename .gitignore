@@ -1,3 +1,6 @@
-*.env
+.env
 *.swp
+.idea
+__pycache__/
+venv/
 
